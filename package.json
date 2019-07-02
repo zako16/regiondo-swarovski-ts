@@ -1,0 +1,27 @@
+{
+  "name": "regiondo.swarovski.ts",
+  "version": "0.0.0",
+  "description": "Auto tests",
+  "main": "",
+  "scripts": {
+    "test": "./node_modules/.bin/wdio wdio.conf.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "regiondo.swarovski.ts"
+  },
+  "keywords": [
+    "webdriver.io"
+  ],
+  "author": "Meerim Zhanuzakova",
+  "license": "ISC",
+  "devDependencies": {
+    "@wdio/cli": "^5.10.9",
+    "@wdio/jasmine-framework": "^5.10.8",
+    "@wdio/local-runner": "^5.10.9",
+    "@wdio/spec-reporter": "^5.9.3",
+    "@wdio/sync": "^5.10.8",
+    "chromedriver": "^75.0.0",
+    "wdio-chromedriver-service": "^5.0.2"
+  }
+}
